@@ -350,7 +350,7 @@ covidFridayMap <- covid19_Fri %>%
   transition_manual(date)
 ```
 
-```{r}
+```{r, eval=FALSE}
 animate(covidFridayMap, 
         nframe = 200, 
         end_pause = 10)
